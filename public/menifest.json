@@ -1,0 +1,22 @@
+{
+  "name": "Turtlabs",
+  "short_name": "Turtlabs",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#0d1117",
+  "orientation": "portrait",
+  "description": "Turtlabs builds responsive, high-performance web and mobile apps using modern technologies like React, Next.js, Node.js, MongoDB, and React Native.",
+  "icons": [
+    {
+      "src": "/fevicon.ico",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/fevicon.ico",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
