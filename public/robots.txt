@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+
+# Sitemap and canonical references
+Sitemap: https://turtlabs.vercel.app/sitemap.xml
