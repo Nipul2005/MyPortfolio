@@ -106,12 +106,14 @@ function Home() {
               icons="ri-linkedin-line"
             />
             <SocialIcons
-              link="https://github.com/Nipul2005"
-              icons="ri-github-line"
+              linkType="mailto:"
+              link="turtlabs@gmail.com"
+              icons="ri-mail-line"
             />
             <SocialIcons
-              link="https://www.instagram.com/nipul2005_/"
-              icons="ri-instagram-line"
+              linkType="tel:"
+              link="9205470224"
+              icons="ri-phone-line"
             />
           </div>
         </div>
