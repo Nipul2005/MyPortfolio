@@ -2,7 +2,7 @@ import SocialIcons from "../icons/SocialIcons";
 
 function Home() {
   return (
-    <section className="w-full h-full bg-[url('bg.jpg')] bg-cover bg-center flex  justify-center items-center px-4">
+    <section className="w-full h-full bg-[url(bg.jpg)] bg-cover bg-center flex  justify-center items-center px-4">
       <div className="sm:container sm:mx-auto sm:max-w-3/6 flex sm:flex-row flex-col justify-between items-start backdrop-blur-xs bg-black/30 border border-white/5 rounded-lg px-5 py-8 gap-y-5">
         <div className="flex-2 self-stretch">
           <p className="sm:text-lg text-white mb-1 text-md">FullStack Developer</p>
