@@ -4,7 +4,11 @@ import Seo from "../seo/Seo";
 function Home() {
   return (
     <>
-      <Seo title="" desc="" keywords="" />
+      <Seo
+        title="Turtlabs — Web & Mobile App Development Solutions"
+        desc="Turtlabs builds fast, responsive, and scalable web and mobile applications using React, Next.js, Node.js, MongoDB, and React Native."
+        keywords="Custom website development, professional web design services, responsive website design, corporate website solutions, website maintenance services, website hosting and support, small business website design, startup website development, e-commerce website solutions, website redesign services, user experience design, SEO-friendly website development, website performance optimization, website consulting services, digital transformation solutions, website branding and identity, mobile-friendly web design, website usability improvements, business website solutions, website project management, affordable website development, website accessibility services, website security services, online presence enhancement, website audit and analysis, website scalability solutions."
+      />
       <section
         className="w-full h-full bg-cover bg-center flex  justify-center items-center px-4"
         style={{ backgroundImage: "url(turtlabs.webp)" }}
