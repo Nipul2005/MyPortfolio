@@ -13,14 +13,33 @@
     />
 
     <!-- css preload -->
-    <link rel="preload" href="src/index.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
-
+    <link
+      rel="preload"
+      href="src/index.css"
+      as="style"
+      onload="this.onload=null;this.rel='stylesheet'"
+    />
 
     <!-- tags of google -->
     <meta
       name="google-site-verification"
       content="yhPes10db4Hlq2j-9LKzW_L05ZOH8H5DSjQ5JZ5QKKE"
     />
+
+    <!-- Google tag (gtag.js) -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-Z148E52BTE"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "G-Z148E52BTE");
+    </script>
   </head>
   <body class="w-full h-auto">
     <main id="root" class="w-screen h-screen relative"></main>
