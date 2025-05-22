@@ -3,82 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link href="/src/index.css" rel="stylesheet" />
     <link rel="icon" type="icon" href="/fevicon.ico" sizes="32x32" />
-    <!-- seo -->
-    <title>Turtlabs — Web Development, Design & Digital Solutions</title>
-    <meta
-      name="title"
-      content="Turtlabs — Web Development, Design & Digital Solutions"
-    />
-    <meta
-      name="description"
-      content="Custom web development, UI/UX design, SEO, and full-stack services for startups and enterprises. Built with React, Node.js, and modern tech."
-    />
-
-    <!-- Open Graph / Facebook -->
-    <meta property="og:type" content="website" />
-    <meta property="og:url" content="https://turtlabs.vercel.app/" />
-    <meta
-      property="og:title"
-      content="Turtlabs — Web Development, Design & Digital Solutions"
-    />
-    <meta
-      property="og:description"
-      content="We create responsive, scalable websites and apps using modern full-stack technologies for businesses of all sizes."
-    />
-    <meta
-      property="og:image"
-      content="https://turtlabs.vercel.app/turtlabs.jpg"
-    />
-
-    <!-- Twitter -->
-    <meta property="twitter:card" content="summary_large_image" />
-    <meta property="twitter:url" content="https://turtlabs.vercel.app/" />
-    <meta
-      property="twitter:title"
-      content="Turtlabs — Web Development, Design & Digital Solutions"
-    />
-    <meta
-      property="twitter:description"
-      content="Professional web development services with React, Node.js, MongoDB, Tailwind CSS. Fast, scalable, SEO-ready."
-    />
-    <meta
-      property="twitter:image"
-      content="https://turtlabs.vercel.app/turtlabs.jpg"
-    />
-
-    <!-- canonical -->
-    <link rel="canonical" href="https://turtlabs.vercel.app/" />
-
-    <!-- json-ld schema -->
-    <script type="application/ld+json">
-      {
-        "@context": "https://schema.org",
-        "@type": "Organization",
-        "name": "Turtlabs",
-        "url": "https://turtlabs.vercel.app/",
-        "logo": "https://turtlabs.vercel.app/turtlabs.jpg", 
-        "description": "Turtlabs specializes in responsive web and mobile development, UI/UX design, and scalable backend solutions using React, Next.js, Node.js, MongoDB, and React Native.",
-        "founder": {
-          "@type": "Person",
-          "name": "Nipul Pandit"  // Optional — replace or remove
-        },
-        "sameAs": [],
-        "address": {
-          "@type": "PostalAddress",
-          "addressLocality": "India",
-          "addressCountry": "IN"
-        },
-        "contactPoint": {
-          "@type": "ContactPoint",
-          "contactType": "9205470224",
-          "email": "pnipul7678@gmail.com",  // Change to your real email
-          "availableLanguage": ["English", "Hindi"]
-        }
-      }
-      </script>      
-
     <!-- google font links -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -87,8 +12,15 @@
       rel="stylesheet"
     />
 
+    <!-- css preload -->
+    <link rel="preload" href="index.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+
+
     <!-- tags of google -->
-    <meta name="google-site-verification" content="yhPes10db4Hlq2j-9LKzW_L05ZOH8H5DSjQ5JZ5QKKE" />
+    <meta
+      name="google-site-verification"
+      content="yhPes10db4Hlq2j-9LKzW_L05ZOH8H5DSjQ5JZ5QKKE"
+    />
   </head>
   <body class="w-full h-auto">
     <main id="root" class="w-screen h-screen relative"></main>
