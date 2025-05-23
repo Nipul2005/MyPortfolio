@@ -15,7 +15,7 @@ function Home() {
       >
         <div className="sm:container sm:mx-auto sm:max-w-3/6 flex sm:flex-row flex-col justify-between sm:items-center items:start backdrop-blur-xl border border-white/2 rounded-lg px-5 py-8 gap-y-5 w-full relative">
           <div className="flex-2 self-stretch">
-            <h2 className="sm:text-lg text-white mb-10 text-md font-extralight">
+            <h2 className="sm:text-md text-white mb-10 text-md font-light">
               We Dive Deep Into What You Need...
             </h2>
             <h1 className="lg:text-8xl md:text-7xl sm:text-6xl text-6xl text-white">
@@ -30,7 +30,7 @@ function Home() {
               growth.
             </p>
           </div>
-          <div className="flex-1 flex flex-row sm:flex-col sm:justify-between justify-start items-center gap-x-3 sm:gap-y-14  ">
+          <div className="flex-1 flex flex-row sm:flex-col sm:justify-between justify-start items-center gap-x-3 sm:gap-y-16  ">
             <SocialIcons
               link="https://wa.me/9205470224"
               icons="ri-whatsapp-line"
@@ -52,7 +52,7 @@ function Home() {
           </div>
         </div>
 
-        <p className="fixed bottom-5 text-white text-sm">&copy; {new Date().getFullYear()} Turtlabs, All Rights Reserved</p>
+        <p className="fixed bottom-5 text-white text-sm font-extralight">&copy; {new Date().getFullYear()} Turtlabs, All Rights Reserved</p>
       </section>
     </>
   );

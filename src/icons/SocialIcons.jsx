@@ -7,7 +7,7 @@ function SocialIcons({ link, icons, linkType }) {
       aria-label="social-link"
     >
       <i
-        className={`${icons} text-black sm:w-15 sm:h-15 w-10 h-10 sm:text-4xl text-2xl rounded-full flex justify-center items-center bg-white hover:scale-75 transition-all ease-in duration-300`}
+        className={`${icons} text-white sm:text-4xl text-lg rounded-full flex justify-center items-center bg-transparent hover:scale-75 transition-all ease-in duration-300`}
       ></i>
     </a>
   );
