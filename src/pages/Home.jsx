@@ -6,7 +6,7 @@ function Home() {
     <>
       <Seo
         title="Turtlabs – Scalable Web & Mobile App Development"
-        desc="Turtlabs builds high-performance, scalable, and responsive web and mobile apps using React, Next.js, Node.js, MongoDB, and React Native. Trusted by startups and enterprises."
+        desc="Turtlabs develops scalable, high-performance web and mobile apps using React, Next.js, Node.js, MongoDB, and React Native."
       />
 
       <section
