@@ -5,6 +5,7 @@ function SocialIcons({ link, icons, linkType }) {
     <a
       href={`${linkType ? linkType + link : link}`}
       aria-label="social-link"
+      rel="noopener noreferrer"
     >
       <i
         className={`${icons} text-white sm:text-4xl text-lg rounded-full flex justify-center items-center bg-transparent hover:scale-75 transition-all ease-in duration-300`}
