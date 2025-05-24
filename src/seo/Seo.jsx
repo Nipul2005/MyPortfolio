@@ -6,7 +6,6 @@ function Seo({ title, desc, keywords }) {
     <Helmet>
       <title>{title}</title>
       <meta name="description" content={desc} />
-      <meta name="keywords" content={keywords} />
       <meta name="author" content="Turtlabs" />
       <link rel="canonical" href="https://turtlabs.vercel.app/" />
       <meta name="robots" content="index, follow" />
@@ -14,10 +13,7 @@ function Seo({ title, desc, keywords }) {
       <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
 
       {/* ✅ Open Graph (Facebook & LinkedIn) */}
-      <meta
-        property="og:title"
-        content="Turtlabs – Modern Web & Mobile App Development"
-      />
+      <meta property="og:title" content={title} />
       <meta
         property="og:description"
         content="We craft scalable, fast web and mobile apps using React, Next.js, Node.js, and more. Perfect for startups and growing businesses."
@@ -33,7 +29,10 @@ function Seo({ title, desc, keywords }) {
       {/* ✅ Twitter Card */}
       <meta name="twitter:card" content="summary_large_image" />
       <meta name="twitter:title" content={title} />
-      <meta name="twitter:description" content={desc} />
+      <meta
+        name="twitter:description"
+        content="We craft scalable, fast web and mobile apps using React, Next.js, Node.js, and more. Perfect for startups and growing businesses."
+      />
       <meta
         name="twitter:image"
         content="https://turtlabs.vercel.app/turtlabs.webp"
@@ -53,7 +52,7 @@ function Seo({ title, desc, keywords }) {
           name: "Turtlabs",
           url: "https://turtlabs.vercel.app/",
           logo: "https://turtlabs.vercel.app/turtlabs.webp",
-          description:` ${ desc }`,
+          description: ` ${desc}`,
           address: {
             "@type": "PostalAddress",
             addressLocality: "India",

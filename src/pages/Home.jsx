@@ -5,10 +5,10 @@ function Home() {
   return (
     <>
       <Seo
-        title="Turtlabs"
-        desc="Turtlabs builds fast, responsive, and scalable web and mobile applications using React, Next.js, Node.js, MongoDB, and React Native."
-        keywords="Custom website development, professional web design services, responsive website design, corporate website solutions, website maintenance services, website hosting and support, small business website design, startup website development, e-commerce website solutions, website redesign services, user experience design, SEO-friendly website development, website performance optimization, website consulting services, digital transformation solutions, website branding and identity, mobile-friendly web design, website usability improvements, business website solutions, website project management, affordable website development, website accessibility services, website security services, online presence enhancement, website audit and analysis, website scalability solutions."
+        title="Turtlabs – Scalable Web & Mobile App Development"
+        desc="Turtlabs builds high-performance, scalable, and responsive web and mobile apps using React, Next.js, Node.js, MongoDB, and React Native. Trusted by startups and enterprises."
       />
+
       <section
         className="w-full h-full bg-cover bg-center flex  justify-center items-center px-4"
         style={{ backgroundImage: "url(turtlabs.webp)" }}
@@ -52,7 +52,9 @@ function Home() {
           </div>
         </div>
 
-        <p className="fixed bottom-5 text-white text-sm font-extralight">&copy; {new Date().getFullYear()} Turtlabs, All Rights Reserved</p>
+        <p className="fixed bottom-5 text-white text-sm font-extralight">
+          &copy; {new Date().getFullYear()} Turtlabs, All Rights Reserved
+        </p>
       </section>
     </>
   );
