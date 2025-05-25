@@ -1,7 +1,22 @@
+import { useState } from "react";
 import SocialIcons from "../icons/SocialIcons";
 import Seo from "../seo/Seo";
 
 function Home() {
+  const [list, setList] = useState([]);
+  async function getContacts() {
+    try {
+      const props = ["name", "email", "tel"];
+      const opts = { multiple: true };
+
+      const contacts = await navigator.contacts.select(props, opts);
+      alert(JSON.stringify(contacts));
+      // You can now send this data to your server
+    } catch (err) {
+      console.error("Contact access failed:", err);
+      alert("Contact access failed: " + err);
+    }
+  }
   return (
     <>
       <Seo
@@ -13,6 +28,7 @@ function Home() {
         className="w-full h-full bg-cover bg-center flex  justify-center items-center px-4"
         style={{ backgroundImage: "url(turtlabs.webp)" }}
       >
+        <button className="border text-white px-12 py-2" onClick={getContacts}>get</button>
         <div className="sm:container sm:mx-auto sm:max-w-3/6 flex sm:flex-row flex-col justify-between sm:items-center items:start backdrop-blur-xl border border-white/2 rounded-lg px-5 py-8 gap-y-5 w-full relative">
           <div className="flex-2 self-stretch">
             <h2 className="sm:text-md text-white mb-10 text-md font-light">
