@@ -1,14 +1,7 @@
 import SocialIcons from "../icons/SocialIcons";
-import Seo from "../seo/Seo";
 
 function Home() {
   return (
-    <>
-      <Seo
-        title="turtlabs – Scalable Web & Mobile App Development"
-        desc="turtlabs develops scalable, high-performance web and mobile apps using React, Next.js, Node.js, MongoDB, and React Native."
-      />
-
       <section
         className="w-full h-full bg-cover bg-center flex  justify-center items-center px-4"
         style={{ backgroundImage: "url(turtlabs.webp)" }}
@@ -56,7 +49,6 @@ function Home() {
           &copy; {new Date().getFullYear()} Turtlabs, All Rights Reserved
         </p>
       </section>
-    </>
   );
 }
 
