@@ -14,7 +14,7 @@ function Home() {
           </h2>
           <h1 className="lg:text-8xl md:text-7xl sm:text-6xl text-6xl text-white">
             The <br />
-            <span>Turtlabs</span>
+            Turtlabs
           </h1>
           <p className="sm:text-md text-white mt-10 font-extralight">
             We build responsive web and mobile applications with seamless user
