@@ -9,12 +9,12 @@
   "description": "Turtlabs builds responsive, high-performance web and mobile apps using modern technologies like React, Next.js, Node.js, MongoDB, and React Native.",
   "icons": [
     {
-      "src": "/fevicon.ico",
+      "src": "/favicon.ico",
       "sizes": "192x192",
       "type": "image/png"
     },
     {
-      "src": "/fevicon.ico",
+      "src": "/favicon.ico",
       "sizes": "512x512",
       "type": "image/png"
     }
